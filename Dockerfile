@@ -3,7 +3,6 @@ FROM python:3.9-alpine3.13
 LABEL maintainer="jon"
 
 ENV PYTHONUNBUFFERED 1
-ENV PYTHONDONTWRITEBYTECODE 1
 
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
